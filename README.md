@@ -15,7 +15,7 @@ docker run -d -p 3000:80 lig10/phpdeserialization-poc:v1.0
 
 #### Build the image
 ```sh
-git clone https://github.com/gil01karougbe/nodeserialize-poc.git
+git clone https://github.com/gil01karougbe/phpserialization-poc.git
 cd phpserialization-poc
 docker build -t phpserialization-poc .
 docker run -d -p 3000:80 phpserialization-poc
